@@ -1,0 +1,179 @@
+body{
+  margin: 10px 10px 0px 10px;
+  padding: 0px;
+  background-color: #dedfda;
+}
+
+header{
+  height: 50px;
+  background-color: #013832;
+  padding: 20px;
+  font-family: Freehand521 BT;
+}
+
+
+img.Logo{
+  float: right;
+  width: 60px;
+  height: 60px;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 10px;
+  padding: 10px;
+}
+
+h1{
+  color: #dedfda;
+}
+
+h2{
+  color: #013832;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 70px;
+  color: #013832;
+  font-family: monospace;
+  margin: 30px;
+  padding: 10px;
+}
+
+h5{
+  font-size: 80px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #013832;
+  border-bottom: 5px solid #013832;
+}
+
+section{
+  background-color: #b0bb9b;
+  text-overflow: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#front{
+  width: 1460px;
+}
+
+article{
+  background-color: #b0bb9b;
+  color: #013832;
+  font-size: 30px;
+  text-overflow: none;
+  padding: 30px;
+}
+
+aside{
+  float: left;
+}
+
+nav{
+  font-family: bahnschrift;
+}
+
+#eldanya{
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+#icon{
+  width: 300px;
+}
+
+fieldset{
+  background-color: #b0bb9b;
+  border-width: 5px;
+  color: #013832;
+  border-color:  #013832;
+  font-size: 30px;
+}
+
+legend{
+  color: #013832;
+  padding: 5px 10px;
+  font-size: 30px;
+}
+
+span{
+  color: #013832;
+  font-family: sans-serif;
+}
+
+div{
+  background-color:  #dedfda;
+}
+
+input{
+  margin: 5px;
+}
+
+ul li{
+  display: flex;
+}
+
+ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+  background-color: #387b5c;
+}
+
+li{
+  float: right;
+}
+
+li a{
+  display: block;
+  color: #b0bb9b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+li a:hover{
+  background-color: #b0bb9b;
+}
+
+.active {
+  background-color: #c56a19;
+}
+
+a:link{
+  color: #ff8164;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #b0bb9b;
+}
+
+a:hover{
+  color: white;
+}
+
+#logofooter{
+  float: right;
+
+}
+
+footer{
+  padding: 20px;
+  color: #dedfda;
+  background-color: #013832;
+}
